@@ -1338,8 +1338,6 @@ namespace SwipeActionSimple
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textSpacerNoButtons = global::SwipeActionSimple.Resource.Id.textSpacerNoButtons;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textSpacerNoTitle = global::SwipeActionSimple.Resource.Id.textSpacerNoTitle;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textStart = global::SwipeActionSimple.Resource.Id.textStart;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textValue1 = global::SwipeActionSimple.Resource.Id.textValue1;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textValue3 = global::SwipeActionSimple.Resource.Id.textValue3;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.text_input_password_toggle = global::SwipeActionSimple.Resource.Id.text_input_password_toggle;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textinput_counter = global::SwipeActionSimple.Resource.Id.textinput_counter;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textinput_error = global::SwipeActionSimple.Resource.Id.textinput_error;
@@ -6055,8 +6053,8 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b0070
 			public const int list_item = 2131427440;
 			
-			// aapt resource value: 0x7f0b00cc
-			public const int masked = 2131427532;
+			// aapt resource value: 0x7f0b00ca
+			public const int masked = 2131427530;
 			
 			// aapt resource value: 0x7f0b009c
 			public const int message = 2131427484;
@@ -6286,12 +6284,6 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b005a
 			public const int textStart = 2131427418;
 			
-			// aapt resource value: 0x7f0b00c9
-			public const int textValue1 = 2131427529;
-			
-			// aapt resource value: 0x7f0b00ca
-			public const int textValue3 = 2131427530;
-			
 			// aapt resource value: 0x7f0b00ae
 			public const int text_input_password_toggle = 2131427502;
 			
@@ -6373,8 +6365,8 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b001b
 			public const int view_offset_helper = 2131427355;
 			
-			// aapt resource value: 0x7f0b00cb
-			public const int visible = 2131427531;
+			// aapt resource value: 0x7f0b00c9
+			public const int visible = 2131427529;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int withText = 2131427395;

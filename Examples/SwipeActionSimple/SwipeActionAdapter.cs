@@ -56,8 +56,6 @@ namespace SwipeActionSimple
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
-            //var view  = _swipeActionManager.InflateSwipeAction(parent, Resource.Layout.item_view);
-
             var view = (SwipeLayout)LayoutInflater.From(_context)
                 .Inflate(ZC.Xamarin.Android.SwipeAction.Resource.Layout.swipe_layout, parent, false);
 
@@ -65,22 +63,16 @@ namespace SwipeActionSimple
 
             view.SetMinimumWidth(wt);
 
-            view.InflateSwipeItem(Resource.Layout.item_view);
-            
-            var viewHolder = new SwipeActionViewHolder(view);
+            var itemView = view.InflateSwipeItem(Resource.Layout.item_view);
 
-            
+            itemView.SetMinimumWidth(wt);
+
+            var viewHolder = new SwipeActionViewHolder(view);
 
             for (var i = 0; i < viewHolder.swipe_content.ChildCount; i++)
             {
-                viewHolder.swipe_content.GetChildAt(i).SetMinimumWidth(wt);
+                viewHolder.swipe_content.GetChildAt(i).SetMinimumWidth(wt);                
             }
-            //viewHolder.textValue1.SetWidth(wt);
-            //viewHolder.textValue2.SetMinimumWidth(wt);
-            //viewHolder.textValue3.SetWidth(wt);
-
-          //  viewHolder.horizontalScrollView.SetMinimumWidth(wt);
-         //  viewHolder.horizontalScrollView.ScrollTo(viewHolder.horizontalScrollView.MinimumWidth / 2, 0);
 
             return viewHolder;
         }

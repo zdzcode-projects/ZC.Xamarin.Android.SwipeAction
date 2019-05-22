@@ -48,7 +48,7 @@ namespace ZC.Xamarin.Android.SwipeAction
             }
         }
 
-        public void InflateSwipeItem(int resource)
+        public View InflateSwipeItem(int resource)
         {
             LinearLayout swipe_content = FindViewById<LinearLayout>(Resource.Id.swipe_content);
 
@@ -56,6 +56,8 @@ namespace ZC.Xamarin.Android.SwipeAction
                 .Inflate(resource, swipe_content, false);
 
             swipe_content.AddView(view, 1);
+
+            return view;
         }
 
         public void InflateSwipeItem(View view)
