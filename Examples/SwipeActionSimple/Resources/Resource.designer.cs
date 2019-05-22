@@ -1181,7 +1181,6 @@ namespace SwipeActionSimple
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.META = global::SwipeActionSimple.Resource.Id.META;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.SHIFT = global::SwipeActionSimple.Resource.Id.SHIFT;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.SYM = global::SwipeActionSimple.Resource.Id.SYM;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.SwipeRelativeLayoutContent = global::SwipeActionSimple.Resource.Id.SwipeRelativeLayoutContent;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.action_bar = global::SwipeActionSimple.Resource.Id.action_bar;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.action_bar_activity_content = global::SwipeActionSimple.Resource.Id.action_bar_activity_content;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.action_bar_container = global::SwipeActionSimple.Resource.Id.action_bar_container;
@@ -1211,7 +1210,6 @@ namespace SwipeActionSimple
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.blocking = global::SwipeActionSimple.Resource.Id.blocking;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.bottom = global::SwipeActionSimple.Resource.Id.bottom;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.buttonPanel = global::SwipeActionSimple.Resource.Id.buttonPanel;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.cardViewBackground = global::SwipeActionSimple.Resource.Id.cardViewBackground;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.center = global::SwipeActionSimple.Resource.Id.center;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.center_horizontal = global::SwipeActionSimple.Resource.Id.center_horizontal;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.center_vertical = global::SwipeActionSimple.Resource.Id.center_vertical;
@@ -1219,7 +1217,6 @@ namespace SwipeActionSimple
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.chronometer = global::SwipeActionSimple.Resource.Id.chronometer;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.clip_horizontal = global::SwipeActionSimple.Resource.Id.clip_horizontal;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.clip_vertical = global::SwipeActionSimple.Resource.Id.clip_vertical;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.codigoReferencia = global::SwipeActionSimple.Resource.Id.codigoReferencia;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.collapseActionView = global::SwipeActionSimple.Resource.Id.collapseActionView;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.container = global::SwipeActionSimple.Resource.Id.container;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.content = global::SwipeActionSimple.Resource.Id.content;
@@ -1227,7 +1224,6 @@ namespace SwipeActionSimple
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.coordinator = global::SwipeActionSimple.Resource.Id.coordinator;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.custom = global::SwipeActionSimple.Resource.Id.custom;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.customPanel = global::SwipeActionSimple.Resource.Id.customPanel;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.data = global::SwipeActionSimple.Resource.Id.data;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.decor_content_parent = global::SwipeActionSimple.Resource.Id.decor_content_parent;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.default_activity_button = global::SwipeActionSimple.Resource.Id.default_activity_button;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.design_bottom_sheet = global::SwipeActionSimple.Resource.Id.design_bottom_sheet;
@@ -1286,7 +1282,6 @@ namespace SwipeActionSimple
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.parentPanel = global::SwipeActionSimple.Resource.Id.parentPanel;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.parent_matrix = global::SwipeActionSimple.Resource.Id.parent_matrix;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.pin = global::SwipeActionSimple.Resource.Id.pin;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.product_image = global::SwipeActionSimple.Resource.Id.product_image;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.progress_circular = global::SwipeActionSimple.Resource.Id.progress_circular;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.progress_horizontal = global::SwipeActionSimple.Resource.Id.progress_horizontal;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.radio = global::SwipeActionSimple.Resource.Id.radio;
@@ -1332,9 +1327,8 @@ namespace SwipeActionSimple
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.stretch = global::SwipeActionSimple.Resource.Id.stretch;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.submenuarrow = global::SwipeActionSimple.Resource.Id.submenuarrow;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.submit_area = global::SwipeActionSimple.Resource.Id.submit_area;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.swipePosition = global::SwipeActionSimple.Resource.Id.swipePosition;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.swipe_action_scroll = global::SwipeActionSimple.Resource.Id.swipe_action_scroll;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.swipe_content = global::SwipeActionSimple.Resource.Id.swipe_content;
+			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.swipe_layout = global::SwipeActionSimple.Resource.Id.swipe_layout;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.tabMode = global::SwipeActionSimple.Resource.Id.tabMode;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.tag_transition_group = global::SwipeActionSimple.Resource.Id.tag_transition_group;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.tag_unhandled_key_event_manager = global::SwipeActionSimple.Resource.Id.tag_unhandled_key_event_manager;
@@ -1350,14 +1344,10 @@ namespace SwipeActionSimple
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textinput_counter = global::SwipeActionSimple.Resource.Id.textinput_counter;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textinput_error = global::SwipeActionSimple.Resource.Id.textinput_error;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textinput_helper_text = global::SwipeActionSimple.Resource.Id.textinput_helper_text;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textoDescricao = global::SwipeActionSimple.Resource.Id.textoDescricao;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textoPrimario = global::SwipeActionSimple.Resource.Id.textoPrimario;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.textoSecundario = global::SwipeActionSimple.Resource.Id.textoSecundario;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.time = global::SwipeActionSimple.Resource.Id.time;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.title = global::SwipeActionSimple.Resource.Id.title;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.titleDividerNoCustom = global::SwipeActionSimple.Resource.Id.titleDividerNoCustom;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.title_template = global::SwipeActionSimple.Resource.Id.title_template;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.titulo = global::SwipeActionSimple.Resource.Id.titulo;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.top = global::SwipeActionSimple.Resource.Id.top;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.topPanel = global::SwipeActionSimple.Resource.Id.topPanel;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.touch_outside = global::SwipeActionSimple.Resource.Id.touch_outside;
@@ -1366,12 +1356,10 @@ namespace SwipeActionSimple
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.transition_position = global::SwipeActionSimple.Resource.Id.transition_position;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.transition_scene_layoutid_cache = global::SwipeActionSimple.Resource.Id.transition_scene_layoutid_cache;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.transition_transform = global::SwipeActionSimple.Resource.Id.transition_transform;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.txt_order_date = global::SwipeActionSimple.Resource.Id.txt_order_date;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.uniform = global::SwipeActionSimple.Resource.Id.uniform;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.unlabeled = global::SwipeActionSimple.Resource.Id.unlabeled;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.up = global::SwipeActionSimple.Resource.Id.up;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.useLogo = global::SwipeActionSimple.Resource.Id.useLogo;
-			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.valor = global::SwipeActionSimple.Resource.Id.valor;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.view_offset_helper = global::SwipeActionSimple.Resource.Id.view_offset_helper;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.visible = global::SwipeActionSimple.Resource.Id.visible;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.withText = global::SwipeActionSimple.Resource.Id.withText;
@@ -5797,9 +5785,6 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b003e
 			public const int SYM = 2131427390;
 			
-			// aapt resource value: 0x7f0b00c5
-			public const int SwipeRelativeLayoutContent = 2131427525;
-			
 			// aapt resource value: 0x7f0b008d
 			public const int action_bar = 2131427469;
 			
@@ -5821,17 +5806,17 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b0069
 			public const int action_bar_title = 2131427433;
 			
-			// aapt resource value: 0x7f0b00b4
-			public const int action_container = 2131427508;
+			// aapt resource value: 0x7f0b00b9
+			public const int action_container = 2131427513;
 			
 			// aapt resource value: 0x7f0b008e
 			public const int action_context_bar = 2131427470;
 			
-			// aapt resource value: 0x7f0b00bf
-			public const int action_divider = 2131427519;
+			// aapt resource value: 0x7f0b00c4
+			public const int action_divider = 2131427524;
 			
-			// aapt resource value: 0x7f0b00b5
-			public const int action_image = 2131427509;
+			// aapt resource value: 0x7f0b00ba
+			public const int action_image = 2131427514;
 			
 			// aapt resource value: 0x7f0b0003
 			public const int action_menu_divider = 2131427331;
@@ -5848,11 +5833,11 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b006b
 			public const int action_mode_close_button = 2131427435;
 			
-			// aapt resource value: 0x7f0b00b6
-			public const int action_text = 2131427510;
+			// aapt resource value: 0x7f0b00bb
+			public const int action_text = 2131427515;
 			
-			// aapt resource value: 0x7f0b00c0
-			public const int actions = 2131427520;
+			// aapt resource value: 0x7f0b00c5
+			public const int actions = 2131427525;
 			
 			// aapt resource value: 0x7f0b006c
 			public const int activity_chooser_view_content = 2131427436;
@@ -5902,8 +5887,8 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b0072
 			public const int buttonPanel = 2131427442;
 			
-			// aapt resource value: 0x7f0b00c6
-			public const int cardViewBackground = 2131427526;
+			// aapt resource value: 0x7f0b00af
+			public const int cardViewBackground = 2131427503;
 			
 			// aapt resource value: 0x7f0b004c
 			public const int center = 2131427404;
@@ -5917,8 +5902,8 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b0086
 			public const int checkbox = 2131427462;
 			
-			// aapt resource value: 0x7f0b00be
-			public const int chronometer = 2131427518;
+			// aapt resource value: 0x7f0b00c3
+			public const int chronometer = 2131427523;
 			
 			// aapt resource value: 0x7f0b0061
 			public const int clip_horizontal = 2131427425;
@@ -5926,8 +5911,8 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b0062
 			public const int clip_vertical = 2131427426;
 			
-			// aapt resource value: 0x7f0b00ca
-			public const int codigoReferencia = 2131427530;
+			// aapt resource value: 0x7f0b00b3
+			public const int codigoReferencia = 2131427507;
 			
 			// aapt resource value: 0x7f0b0040
 			public const int collapseActionView = 2131427392;
@@ -5950,8 +5935,8 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b007b
 			public const int customPanel = 2131427451;
 			
-			// aapt resource value: 0x7f0b00cf
-			public const int data = 2131427535;
+			// aapt resource value: 0x7f0b00b7
+			public const int data = 2131427511;
 			
 			// aapt resource value: 0x7f0b008b
 			public const int decor_content_parent = 2131427467;
@@ -6031,8 +6016,8 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b0071
 			public const int icon = 2131427441;
 			
-			// aapt resource value: 0x7f0b00c1
-			public const int icon_group = 2131427521;
+			// aapt resource value: 0x7f0b00c6
+			public const int icon_group = 2131427526;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int ifRoom = 2131427393;
@@ -6040,8 +6025,8 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b006e
 			public const int image = 2131427438;
 			
-			// aapt resource value: 0x7f0b00ba
-			public const int info = 2131427514;
+			// aapt resource value: 0x7f0b00bf
+			public const int info = 2131427519;
 			
 			// aapt resource value: 0x7f0b0068
 			public const int italic = 2131427432;
@@ -6070,8 +6055,8 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b0070
 			public const int list_item = 2131427440;
 			
-			// aapt resource value: 0x7f0b00d2
-			public const int masked = 2131427538;
+			// aapt resource value: 0x7f0b00cc
+			public const int masked = 2131427532;
 			
 			// aapt resource value: 0x7f0b009c
 			public const int message = 2131427484;
@@ -6103,14 +6088,14 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b0025
 			public const int normal = 2131427365;
 			
+			// aapt resource value: 0x7f0b00c1
+			public const int notification_background = 2131427521;
+			
+			// aapt resource value: 0x7f0b00bd
+			public const int notification_main_column = 2131427517;
+			
 			// aapt resource value: 0x7f0b00bc
-			public const int notification_background = 2131427516;
-			
-			// aapt resource value: 0x7f0b00b8
-			public const int notification_main_column = 2131427512;
-			
-			// aapt resource value: 0x7f0b00b7
-			public const int notification_main_column_container = 2131427511;
+			public const int notification_main_column_container = 2131427516;
 			
 			// aapt resource value: 0x7f0b0060
 			public const int outline = 2131427424;
@@ -6127,9 +6112,6 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b0058
 			public const int pin = 2131427416;
 			
-			// aapt resource value: 0x7f0b00ce
-			public const int product_image = 2131427534;
-			
 			// aapt resource value: 0x7f0b0006
 			public const int progress_circular = 2131427334;
 			
@@ -6145,11 +6127,11 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b0055
 			public const int right = 2131427413;
 			
-			// aapt resource value: 0x7f0b00bb
-			public const int right_icon = 2131427515;
+			// aapt resource value: 0x7f0b00c0
+			public const int right_icon = 2131427520;
 			
-			// aapt resource value: 0x7f0b00b9
-			public const int right_side = 2131427513;
+			// aapt resource value: 0x7f0b00be
+			public const int right_side = 2131427518;
 			
 			// aapt resource value: 0x7f0b000c
 			public const int save_image_matrix = 2131427340;
@@ -6268,14 +6250,14 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b0098
 			public const int submit_area = 2131427480;
 			
+			// aapt resource value: 0x7f0b00b1
+			public const int swipePosition = 2131427505;
+			
 			// aapt resource value: 0x7f0b00c8
-			public const int swipePosition = 2131427528;
+			public const int swipe_content = 2131427528;
 			
-			// aapt resource value: 0x7f0b00c2
-			public const int swipe_action_scroll = 2131427522;
-			
-			// aapt resource value: 0x7f0b00c3
-			public const int swipe_content = 2131427523;
+			// aapt resource value: 0x7f0b00c7
+			public const int swipe_layout = 2131427527;
 			
 			// aapt resource value: 0x7f0b0026
 			public const int tabMode = 2131427366;
@@ -6304,23 +6286,11 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b005a
 			public const int textStart = 2131427418;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int textValue = 2131427503;
+			// aapt resource value: 0x7f0b00c9
+			public const int textValue1 = 2131427529;
 			
-			// aapt resource value: 0x7f0b00c4
-			public const int textValue1 = 2131427524;
-			
-			// aapt resource value: 0x7f0b00b0
-			public const int textValue2 = 2131427504;
-			
-			// aapt resource value: 0x7f0b00b1
-			public const int textValue3 = 2131427505;
-			
-			// aapt resource value: 0x7f0b00b2
-			public const int textValue4 = 2131427506;
-			
-			// aapt resource value: 0x7f0b00b3
-			public const int textValue5 = 2131427507;
+			// aapt resource value: 0x7f0b00ca
+			public const int textValue3 = 2131427530;
 			
 			// aapt resource value: 0x7f0b00ae
 			public const int text_input_password_toggle = 2131427502;
@@ -6334,17 +6304,17 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b001a
 			public const int textinput_helper_text = 2131427354;
 			
-			// aapt resource value: 0x7f0b00cd
-			public const int textoDescricao = 2131427533;
+			// aapt resource value: 0x7f0b00b6
+			public const int textoDescricao = 2131427510;
 			
-			// aapt resource value: 0x7f0b00cb
-			public const int textoPrimario = 2131427531;
+			// aapt resource value: 0x7f0b00b4
+			public const int textoPrimario = 2131427508;
 			
-			// aapt resource value: 0x7f0b00cc
-			public const int textoSecundario = 2131427532;
+			// aapt resource value: 0x7f0b00b5
+			public const int textoSecundario = 2131427509;
 			
-			// aapt resource value: 0x7f0b00bd
-			public const int time = 2131427517;
+			// aapt resource value: 0x7f0b00c2
+			public const int time = 2131427522;
 			
 			// aapt resource value: 0x7f0b0023
 			public const int title = 2131427363;
@@ -6355,8 +6325,8 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b007e
 			public const int title_template = 2131427454;
 			
-			// aapt resource value: 0x7f0b00c9
-			public const int titulo = 2131427529;
+			// aapt resource value: 0x7f0b00b2
+			public const int titulo = 2131427506;
 			
 			// aapt resource value: 0x7f0b0045
 			public const int top = 2131427397;
@@ -6382,8 +6352,8 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b0013
 			public const int transition_transform = 2131427347;
 			
-			// aapt resource value: 0x7f0b00c7
-			public const int txt_order_date = 2131427527;
+			// aapt resource value: 0x7f0b00b0
+			public const int txt_order_date = 2131427504;
 			
 			// aapt resource value: 0x7f0b0034
 			public const int uniform = 2131427380;
@@ -6397,14 +6367,14 @@ namespace SwipeActionSimple
 			// aapt resource value: 0x7f0b002d
 			public const int useLogo = 2131427373;
 			
-			// aapt resource value: 0x7f0b00d0
-			public const int valor = 2131427536;
+			// aapt resource value: 0x7f0b00b8
+			public const int valor = 2131427512;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int view_offset_helper = 2131427355;
 			
-			// aapt resource value: 0x7f0b00d1
-			public const int visible = 2131427537;
+			// aapt resource value: 0x7f0b00cb
+			public const int visible = 2131427531;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int withText = 2131427395;
