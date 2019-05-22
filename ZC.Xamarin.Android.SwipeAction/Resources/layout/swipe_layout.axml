@@ -23,7 +23,7 @@
             android:minHeight="60dp"
             android:background="#FF0000"
             android:id="@+id/textValue3"
-                android:text="Fimmmmmmmmmm"        
+                android:text="Fim"        
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
     

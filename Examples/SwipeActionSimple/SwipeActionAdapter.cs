@@ -30,42 +30,28 @@ namespace SwipeActionSimple
 
         }
 
-        public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position, IList<Object> payloads)
-        {
-            base.OnBindViewHolder(holder, position, payloads);
-        }
-
-        public override void OnViewAttachedToWindow(Object holder)
-        {
-            SwipeActionViewHolder viewHolder = (SwipeActionViewHolder)holder;
-
-            viewHolder.swipeRelativeLayout.ScrollTo(viewHolder.swipeRelativeLayout.Width / 2, 0);
-
-            base.OnViewAttachedToWindow(holder);
-        }
-
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             SwipeActionViewHolder viewHolder = (SwipeActionViewHolder)holder;
 
             var item = _list[position];
 
-            viewHolder.swipeRelativeLayout.SwipedLeft += SwipeRelativeLayout_SwipedLeft;
-            viewHolder.swipeRelativeLayout.SwipedRight += SwipeRelativeLayout_SwipedRight; ;
+            viewHolder.swipeLayout.SwipedLeft += SwipeRelativeLayout_SwipedLeft;
+            viewHolder.swipeLayout.SwipedRight += SwipeRelativeLayout_SwipedRight; ;
         }
 
         private void SwipeRelativeLayout_SwipedRight(object sender, System.EventArgs e)
         {
             var x  = (SwipeLayout)sender;
 
-            x.FreezeScroll();
+            //x.FreezeScroll();
         }
 
         private void SwipeRelativeLayout_SwipedLeft(object sender, System.EventArgs e)
         {
             var x = (SwipeLayout)sender;
 
-            x.UnfreezeScroll();
+            //x.UnfreezeScroll();
         }
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
@@ -75,11 +61,15 @@ namespace SwipeActionSimple
             var view = (SwipeLayout)LayoutInflater.From(_context)
                 .Inflate(ZC.Xamarin.Android.SwipeAction.Resource.Layout.swipe_layout, parent, false);
 
+            int wt = GetScreenWidth(_context);
+
+            view.SetMinimumWidth(wt);
+
             view.InflateSwipeItem(Resource.Layout.item_view);
             
             var viewHolder = new SwipeActionViewHolder(view);
 
-            int wt = GetScreenWidth(_context);
+            
 
             for (var i = 0; i < viewHolder.swipe_content.ChildCount; i++)
             {
@@ -120,9 +110,9 @@ namespace SwipeActionSimple
         public LinearLayout swipe_content;
         public TextView textValue3;
 
-        public SwipeLayout swipeRelativeLayout;
+        public SwipeLayout swipeLayout;
 
-        public SwipeActionViewHolder(View itemView) : base(itemView)
+        public SwipeActionViewHolder(SwipeLayout itemView) : base(itemView)
         {
 
 
@@ -130,6 +120,8 @@ namespace SwipeActionSimple
             //textValue1 = itemView.FindViewById<TextView>(ZC.Xamarin.Android.SwipeAction.Resource.Id.textValue1);
             //textValue2 = itemView.FindViewById<RelativeLayout>(ZC.Xamarin.Android.SwipeAction.Resource.Id.SwipeRelativeLayoutContent);
             //textValue3 = itemView.FindViewById<TextView>(ZC.Xamarin.Android.SwipeAction.Resource.Id.textValue3);
+
+            swipeLayout = itemView;
 
             swipe_content = itemView.FindViewById<LinearLayout>(ZC.Xamarin.Android.SwipeAction.Resource.Id.swipe_content);
         }

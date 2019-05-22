@@ -15,7 +15,7 @@
 	android:layout_height="wrap_content">
 	
 	<LinearLayout			
-            android:id="@+id/cardViewBackground"
+        android:id="@+id/cardViewBackground"
         android:background="@android:color/holo_green_dark"
 		android:clickable="false"
 		android:layout_width="match_parent"
