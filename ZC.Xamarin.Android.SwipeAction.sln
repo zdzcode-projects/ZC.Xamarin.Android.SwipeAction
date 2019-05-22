@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZC.Xamarin.Android.SwipeAction", "ZC.Xamarin.Android.SwipeAction\ZC.Xamarin.Android.SwipeAction.csproj", "{870E4432-FA3B-4FFF-AF55-901E5D001CC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{D3989482-9382-4710-AC09-33969AC01132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwipeActionSimple", "Examples\SwipeActionSimple\SwipeActionSimple.csproj", "{1CDEEC77-E7AC-492F-83D5-7719AD4C5A9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{870E4432-FA3B-4FFF-AF55-901E5D001CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870E4432-FA3B-4FFF-AF55-901E5D001CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870E4432-FA3B-4FFF-AF55-901E5D001CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870E4432-FA3B-4FFF-AF55-901E5D001CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDEEC77-E7AC-492F-83D5-7719AD4C5A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDEEC77-E7AC-492F-83D5-7719AD4C5A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDEEC77-E7AC-492F-83D5-7719AD4C5A9E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1CDEEC77-E7AC-492F-83D5-7719AD4C5A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDEEC77-E7AC-492F-83D5-7719AD4C5A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDEEC77-E7AC-492F-83D5-7719AD4C5A9E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CDEEC77-E7AC-492F-83D5-7719AD4C5A9E} = {D3989482-9382-4710-AC09-33969AC01132}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ABF997E-085A-4F46-99F2-F47ACD9A4147}
+	EndGlobalSection
+EndGlobal
