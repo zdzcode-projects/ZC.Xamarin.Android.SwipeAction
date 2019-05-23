@@ -1327,6 +1327,7 @@ namespace SwipeActionSimple
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.stretch = global::SwipeActionSimple.Resource.Id.stretch;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.submenuarrow = global::SwipeActionSimple.Resource.Id.submenuarrow;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.submit_area = global::SwipeActionSimple.Resource.Id.submit_area;
+			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.swipePosition = global::SwipeActionSimple.Resource.Id.swipePosition;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.swipe_content = global::SwipeActionSimple.Resource.Id.swipe_content;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.swipe_layout = global::SwipeActionSimple.Resource.Id.swipe_layout;
 			global::ZC.Xamarin.Android.SwipeAction.Resource.Id.tabMode = global::SwipeActionSimple.Resource.Id.tabMode;

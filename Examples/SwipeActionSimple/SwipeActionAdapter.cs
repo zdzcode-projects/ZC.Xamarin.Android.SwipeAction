@@ -7,6 +7,7 @@ using Android.Widget;
 using Java.Lang;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using ZC.Xamarin.Android.SwipeAction;
 
 namespace SwipeActionSimple
@@ -25,7 +26,19 @@ namespace SwipeActionSimple
             _list = new List<string>(new string[] {
                 "Linha 1",
                 "Linha 2",
-                "Linha 3"
+                "Linha 3",
+                "Linha 4",
+                "Linha 5",
+                "Linha 6",
+                "Linha 7",
+                "Linha 8",
+                "Linha 9",
+                "Linha 10",
+                "Linha 11",
+                "Linha 12",
+                "Linha 13",
+                "Linha 14",
+                "Linha 15",
             });
 
         }
@@ -36,22 +49,39 @@ namespace SwipeActionSimple
 
             var item = _list[position];
 
+            viewHolder.position.Text = item;
+
             viewHolder.swipeLayout.SwipedLeft += SwipeRelativeLayout_SwipedLeft;
-            viewHolder.swipeLayout.SwipedRight += SwipeRelativeLayout_SwipedRight; ;
+            viewHolder.swipeLayout.SwipedRight += SwipeRelativeLayout_SwipedRight;
         }
 
         private void SwipeRelativeLayout_SwipedRight(object sender, System.EventArgs e)
         {
-            var x  = (SwipeLayout)sender;
+            var swipeLayout  = (SwipeLayout)sender;
 
             //x.FreezeScroll();
         }
 
         private void SwipeRelativeLayout_SwipedLeft(object sender, System.EventArgs e)
         {
-            var x = (SwipeLayout)sender;
+            var swipeLayout = (SwipeLayout)sender;
 
-            //x.UnfreezeScroll();
+            TextView position = swipeLayout.FindViewById<TextView>(ZC.Xamarin.Android.SwipeAction.Resource.Id.swipePosition);
+
+            //swipeLayout.FreezeScroll();
+            var x = _list.IndexOf(position.Text);
+
+            if (x >= 0)
+            {
+                _list.RemoveAt(x);
+                MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    NotifyItemRemoved(x);
+                    //swipeLayout.UnfreezeScroll();
+                });
+
+
+            }
         }
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
@@ -98,6 +128,8 @@ namespace SwipeActionSimple
 
     public class SwipeActionViewHolder : RecyclerView.ViewHolder
     {
+        public TextView position;
+
         public TextView textValue1;
         public LinearLayout swipe_content;
         public TextView textValue3;
@@ -107,7 +139,7 @@ namespace SwipeActionSimple
         public SwipeActionViewHolder(SwipeLayout itemView) : base(itemView)
         {
 
-
+            position = itemView.FindViewById<TextView>(ZC.Xamarin.Android.SwipeAction.Resource.Id.swipePosition);
 
             //textValue1 = itemView.FindViewById<TextView>(ZC.Xamarin.Android.SwipeAction.Resource.Id.textValue1);
             //textValue2 = itemView.FindViewById<RelativeLayout>(ZC.Xamarin.Android.SwipeAction.Resource.Id.SwipeRelativeLayoutContent);

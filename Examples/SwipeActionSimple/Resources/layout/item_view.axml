@@ -8,11 +8,7 @@
 	android:padding="5dp"
 	android:clickable="false"		
 	android:fadingEdge="none|horizontal">
-	
-		<android.support.v7.widget.CardView
-		android:clickable="false"
-	android:layout_width="match_parent"
-	android:layout_height="wrap_content">
+
 	
 	<LinearLayout			
         android:id="@+id/cardViewBackground"
@@ -163,5 +159,5 @@
 			</LinearLayout>
 	</LinearLayout>
 			</LinearLayout>
-		</android.support.v7.widget.CardView>
+		
 </RelativeLayout>

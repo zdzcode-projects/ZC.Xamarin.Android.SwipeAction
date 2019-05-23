@@ -3283,8 +3283,8 @@ namespace ZC.Xamarin.Android.SwipeAction
 			// aapt resource value: 0x7f080070
 			public static int list_item = 2131230832;
 			
-			// aapt resource value: 0x7f0800ba
-			public static int masked = 2131230906;
+			// aapt resource value: 0x7f0800bb
+			public static int masked = 2131230907;
 			
 			// aapt resource value: 0x7f08009c
 			public static int message = 2131230876;
@@ -3475,6 +3475,9 @@ namespace ZC.Xamarin.Android.SwipeAction
 			// aapt resource value: 0x7f080098
 			public static int submit_area = 2131230872;
 			
+			// aapt resource value: 0x7f0800b9
+			public static int swipePosition = 2131230905;
+			
 			// aapt resource value: 0x7f0800b8
 			public static int swipe_content = 2131230904;
 			
@@ -3571,8 +3574,8 @@ namespace ZC.Xamarin.Android.SwipeAction
 			// aapt resource value: 0x7f08001b
 			public static int view_offset_helper = 2131230747;
 			
-			// aapt resource value: 0x7f0800b9
-			public static int visible = 2131230905;
+			// aapt resource value: 0x7f0800ba
+			public static int visible = 2131230906;
 			
 			// aapt resource value: 0x7f080043
 			public static int withText = 2131230787;

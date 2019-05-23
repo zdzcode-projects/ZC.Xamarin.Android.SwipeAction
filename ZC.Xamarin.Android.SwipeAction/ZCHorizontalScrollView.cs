@@ -21,25 +21,30 @@ namespace ZC.Xamarin.Android.SwipeAction
         public ZCHorizontalScrollView(Context context) : base(context)
         {
             LayoutChange += ZCHorizontalScrollView_LayoutChange;
-            ScrollChange += ZCHorizontalScrollView_ScrollChange;
+            //ScrollChange += ZCHorizontalScrollView_ScrollChange;
+        }
+
+        private void ZCHorizontalScrollView_AnimationEnd(object sender, global::Android.Views.Animations.Animation.AnimationEndEventArgs e)
+        {
+            //OnAnimationEnd();
         }
 
         public ZCHorizontalScrollView(Context context, IAttributeSet attrs) : base(context, attrs)
         {
             LayoutChange += ZCHorizontalScrollView_LayoutChange;
-            ScrollChange += ZCHorizontalScrollView_ScrollChange;
+            //ScrollChange += ZCHorizontalScrollView_ScrollChange;
         }
 
         public ZCHorizontalScrollView(Context context, IAttributeSet attrs, int defStyleAttr) : base(context, attrs, defStyleAttr)
         {
             LayoutChange += ZCHorizontalScrollView_LayoutChange;
-            ScrollChange += ZCHorizontalScrollView_ScrollChange;
+            //ScrollChange += ZCHorizontalScrollView_ScrollChange;
         }
 
         public ZCHorizontalScrollView(Context context, IAttributeSet attrs, int defStyleAttr, int defStyleRes) : base(context, attrs, defStyleAttr, defStyleRes)
         {
             LayoutChange += ZCHorizontalScrollView_LayoutChange;
-            ScrollChange += ZCHorizontalScrollView_ScrollChange;
+            //ScrollChange += ZCHorizontalScrollView_ScrollChange;
         }
 
         private void ZCHorizontalScrollView_LayoutChange(object sender, LayoutChangeEventArgs e)
@@ -111,6 +116,11 @@ namespace ZC.Xamarin.Android.SwipeAction
 
                 SmoothScrollTo(((View)Parent).Width, 0);
             }
+        }
+
+        private void ZCHorizontalScrollView_Touch(object sender, TouchEventArgs e)
+        {
+            base.OnTouchEvent(e.Event);
         }
     }
 }

@@ -4,6 +4,7 @@ using Android.Support.V7.App;
 using Android.Runtime;
 using Android.Widget;
 using Android.Support.V7.Widget;
+using JP.Wasabeef.Recyclerview.Animators;
 
 namespace SwipeActionSimple
 {
@@ -22,6 +23,10 @@ namespace SwipeActionSimple
             LinearLayoutManager layoutManager = new LinearLayoutManager(this);
 
             recyclerView = FindViewById<RecyclerView>(Resource.Id.recycler_view);
+
+            recyclerView.SetItemAnimator(new LandingAnimator());
+            recyclerView.GetItemAnimator().AddDuration = 500;
+            recyclerView.GetItemAnimator().RemoveDuration = 500;
 
             recyclerView.SetAdapter(new SwipeActionAdapter(this));
 
