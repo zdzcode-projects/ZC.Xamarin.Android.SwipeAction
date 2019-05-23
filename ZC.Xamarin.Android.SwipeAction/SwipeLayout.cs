@@ -100,6 +100,10 @@ namespace ZC.Xamarin.Android.SwipeAction
                     {
                         SwipedLeft?.Invoke(this, null);
                     }
+                    else
+                    {
+                        SmoothScrollTo(((View)Parent).Width, 0);
+                    }
                 }
             }
             catch (TaskCanceledException ex)
