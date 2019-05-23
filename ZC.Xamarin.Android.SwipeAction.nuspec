@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ZC.Xamarin.Android.SwipeAction</id>
+    <version>0.0.1</version>
+    <authors>ZDZCode</authors>  
+    <licenseUrl>https://github.com/zdzcode-projects/ZC.Xamarin.Android.SwipeAction/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/zdzcode-projects/ZC.Xamarin.Android.SwipeAction</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin Android Swipe Action Component</description>
+    <tags>Xamarin, Android, Binding, RecyclerView, Swipe Menu, Context</tags>
+    <dependencies>      
+      <dependency id="Xamarin.Android.Support.v7.AppCompact" version="28.0.0.1" />
+    </dependencies>
+  </metadata>
+</package>
